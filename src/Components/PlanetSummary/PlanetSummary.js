@@ -29,9 +29,7 @@ const PlanetSummary = () => {
               />
             </p>
           </div>
-          {/* <div className="planet-summary-link-container"> */}
           <InfoButton />
-          {/* </div> */}
         </div>
       </div>
     );

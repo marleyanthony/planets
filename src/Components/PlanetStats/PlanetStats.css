@@ -1,0 +1,31 @@
+.planet-stats-container {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+  margin-bottom: 56px;
+  gap: 36px;
+}
+
+.planet-stat {
+  border: 1px solid #ffffff;
+  width: 150px;
+  height: 128px;
+  padding: 0 25px;
+}
+
+.planet-stat-title {
+  text-transform: uppercase;
+  font-family: "League Spartan", sans-serif;
+  size: 11px;
+  letter-spacing: 1px;
+  padding-top: 8px;
+}
+
+.planet-stat-measurement {
+  margin: 0;
+  font-family: "Antonio", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -1.5px;
+}
