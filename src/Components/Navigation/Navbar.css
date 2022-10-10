@@ -2,8 +2,26 @@
   color: #ffffff;
   font-family: "Antonio", sans-serif;
   padding: 22px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .heading {
-  text-transform: uppercase;
+}
+
+.planet-links {
+  display: flex;
+  gap: 33px;
+}
+
+.planet-link {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }

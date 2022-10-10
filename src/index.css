@@ -11,6 +11,7 @@ body {
   font-family: "Antonio", sans-serif;
   font-family: "Josefin Sans", sans-serif;
   font-family: "League Spartan", sans-serif;
+  background-image: url(./assets/background-stars.svg);
 }
 
 h1,
