@@ -1,0 +1,37 @@
+.planet-summary-container {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.planet-summary-main-img {
+  height: 290px;
+  width: 290px;
+  padding: 250px;
+}
+
+.planet-summary-name {
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+  padding-bottom: 23px;
+}
+
+.planet-summary-text-container {
+  padding-right: 165px;
+}
+
+.planet-summary-overview {
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.planet-summary-link {
+  color: #ffffff;
+}
+
+.planet-summary-link-icon {
+  padding-left: 9px;
+}
