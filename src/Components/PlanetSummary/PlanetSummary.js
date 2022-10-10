@@ -1,3 +1,4 @@
+import InfoButton from "../Buttons/InfoButton";
 import "./PlanetSummary.css";
 import { PlanetSummaryData } from "../../Data/planetSummary";
 
@@ -12,20 +13,25 @@ const PlanetSummary = () => {
             alt={`${planet.name}`}
           />
         </div>
-        <div className="planet-summary-text-container">
-          <h1 className="planet-summary-name">{planet.name}</h1>
-          <p className="planet-summary-overview">{planet.overview}</p>
-          <p className="planet-summary-source">
-            Source:{" "}
-            <a href={planet.overviewWiki} className="planet-summary-link">
-              Wikipedia
-            </a>
-            <img
-              className="planet-summary-link-icon"
-              src={require("../../assets/icon-source.svg").default}
-              alt="icon source"
-            />
-          </p>
+        <div className="planet-summary-overview-link">
+          <div className="planet-summary-text-container">
+            <h1 className="planet-summary-name">{planet.name}</h1>
+            <p className="planet-summary-overview">{planet.overview}</p>
+            <p className="planet-summary-source">
+              Source:{" "}
+              <a href={planet.overviewWiki} className="planet-summary-link">
+                Wikipedia
+              </a>
+              <img
+                className="planet-summary-link-icon"
+                src={require("../../assets/icon-source.svg").default}
+                alt="icon source"
+              />
+            </p>
+          </div>
+          {/* <div className="planet-summary-link-container"> */}
+          <InfoButton />
+          {/* </div> */}
         </div>
       </div>
     );

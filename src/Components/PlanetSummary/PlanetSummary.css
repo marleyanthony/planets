@@ -2,12 +2,13 @@
   color: #ffffff;
   display: flex;
   align-items: center;
+  padding: 100px 165px 0;
 }
 
 .planet-summary-main-img {
   height: 290px;
   width: 290px;
-  padding: 250px;
+  padding-right: 250px;
 }
 
 .planet-summary-name {
@@ -19,7 +20,7 @@
 }
 
 .planet-summary-text-container {
-  padding-right: 165px;
+  padding-bottom: 39px;
 }
 
 .planet-summary-overview {

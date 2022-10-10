@@ -1,7 +1,6 @@
 export const PlanetSummaryData = [
   {
     name: "Earth",
-    // img: "../../assets/planet-earth.svg",
     img: require("../assets/planet-earth.svg"),
     // internalImg: URL("../assets/planet-earth-internal.svg"),
     // geologyImg: URL("../assets/geology-earth.png"),
